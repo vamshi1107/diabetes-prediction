@@ -4,6 +4,50 @@
     <meta charset="UTF-8">
     <title>Predictor</title>
     <style>
+        @font-face {
+            font-family: sui-light;
+            src:
+                local("Segoe UI Light"),
+                url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("truetype");
+            font-weight: 100;
+        }
+
+        @font-face {
+            font-family: sui-semi-light;
+            src:
+                local("Segoe UI Semilight"),
+                url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.ttf) format("truetype");
+            font-weight: 200;
+        }
+
+        @font-face {
+            font-family: sui;
+            src:
+                local("Segoe UI"),
+                url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
+            font-weight: 400;
+        }
+
+        @font-face {
+            font-family: sui-bold;
+            src:
+                local("Segoe UI Bold"),
+                url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.ttf) format("truetype");
+            font-weight: 600;
+        }
+
+        @font-face {
+            font-family: sui-semi-bold;
+            src:
+                local("Segoe UI Semibold"),
+                url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.ttf) format("truetype");
+            font-weight: 700;
+        }
+    </style>
+    <style>
+        body{
+           font-family:'sui-bold';
+        }
         .input{
              margin:10px;
             float:left;
@@ -20,6 +64,8 @@
           background-color:black;
           color:white;
           margin-top:150px;
+          font-family:'sui-bold';
+          font-size:18px;
         }
         .whole{
           margin-top:80px;
